@@ -8,14 +8,25 @@
 //	return 0;
 //}
 
+
 #include <iostream>
 using namespace std;
 
-int main() {
+static void nothing() {
+	cout << "Hello World!";
+}
+
+static char iamachar() {
+	return 'S';
+}
+
+int main() { //Entry point of the C++ prpgram
 	cout << "Enter your name: ";
 	string name;
 	cin >> name;
-	cout << "Welcome " + name + " to the first class of SODV:1101 Programming Fundamentals";
+	cout << "Welcome " + name + " to the first class of SODV:1101 Programming Fundamentals" << endl;
+	nothing();
+	cout << endl << iamachar();
 	return 0;
 }
 
@@ -25,3 +36,4 @@ int main() {
 //	printf("Samandeep Singh");
 //	return 0;
 //}
+
