@@ -18,3 +18,10 @@ int main() {
 	cout << "Welcome " + name + " to the first class of SODV:1101 Programming Fundamentals";
 	return 0;
 }
+
+//C boilerplate syntax
+//#include <stdio.h>
+//int main() {
+//	printf("Samandeep Singh");
+//	return 0;
+//}
