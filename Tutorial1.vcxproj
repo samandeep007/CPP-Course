@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="color.cpp" />
+    <ClCompile Include="colorProgram.cpp" />
     <ClCompile Include="Tutorial1.cpp" />
   </ItemGroup>
   <ItemGroup>

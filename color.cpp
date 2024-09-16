@@ -1,7 +1,7 @@
 #include <iostream> //Header file
 using namespace std; //I can use std:: either --> It means everything is coming from the std file by default.
 
-int main() {
+static int color() {
 	/*std::cout << "Samandeep Singh Sandhu\n";
 	std::cout << "Welcome to this class" << std::endl;
 	std::cout << "Have a nice day!";
@@ -17,5 +17,9 @@ int main() {
 	printf("Enter your favorite color: ");
 	cin >> favoriteColor;
 	cout << "My favorite color is " + favoriteColor + " as well";
+	
+	//_ at start of identifier means private
+	//__ means system keyword
+	//don't use numbers at the start, and reserved keywords
 	return 0;
 }
