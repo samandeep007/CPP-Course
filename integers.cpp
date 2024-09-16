@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+int integers() {
 	//1 byte = 8 bits --> short int -->  int --> long int --> long long int
 	printf("Size of this data type is %ld bits\n", sizeof(int16_t) * 8);
 	printf("Size of this data type is %ld bits\n", sizeof(int32_t) * 8);
