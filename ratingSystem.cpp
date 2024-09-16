@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+static int ratingSystem() {
 	int rating;
 	cout << "Rate this product out of 5: ";
 	cin >> rating;
