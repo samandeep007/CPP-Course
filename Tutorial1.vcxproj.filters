@@ -13,15 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Tut1Assignments">
+      <UniqueIdentifier>{c5a1e9cd-a41a-4bec-a4a4-2df856df0189}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tutorial1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment1.cpp">
+      <Filter>Source Files\Tut1Assignments</Filter>
+    </ClCompile>
     <ClCompile Include="color.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Tut1Assignments</Filter>
     </ClCompile>
     <ClCompile Include="colorProgram.cpp">
+      <Filter>Source Files\Tut1Assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="references.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

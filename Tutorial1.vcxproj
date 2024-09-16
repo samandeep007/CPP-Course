@@ -127,8 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arrays.cpp" />
+    <ClCompile Include="Assignment1.cpp" />
     <ClCompile Include="color.cpp" />
     <ClCompile Include="colorProgram.cpp" />
+    <ClCompile Include="pointers.cpp" />
+    <ClCompile Include="references.cpp" />
     <ClCompile Include="Tutorial1.cpp" />
   </ItemGroup>
   <ItemGroup>
