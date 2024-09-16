@@ -16,8 +16,14 @@ int main() {
 		puts("Not 5 AND 4 star rated");
 	}
 
-	rating >= 5 ? cout << "Good beta" : cout << "bhaad mei jaa"; //Ternary operator --> ?
+	if (!NULL) //0 is false, 1 is true --> NULL is also considered zero/false
+	{
+		puts("Go for it");
+	}
 
+	rating >= 5 ? cout << "Good beta\n" : cout << "bhaad mei jaa\n"; //Ternary operator --> ?
+
+	printf("Your rating feedback is %s\n", rating >= 4 ? "awesome" : "not so good");
 	return 0;
 
 
