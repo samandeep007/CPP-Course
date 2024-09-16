@@ -39,6 +39,9 @@
     <ClCompile Include="arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="integers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

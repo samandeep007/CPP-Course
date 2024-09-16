@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+static int arrays() {
 	int integer_array[5] = { 1,2,3,4,5 };
 	for (int i = 0; i < 5; i++) {
 		cout << integer_array[i] << endl;
@@ -25,7 +25,7 @@ int main() {
 	cout << another_array[1] << endl;
 
 	int *ap = another_array;
-	ap = ap + 1;
+	ap = ap + 1; // will point to the memory location of second array element --> Array stores elements in contigious memory locations
 	*ap = 60;
 	cout << another_array[1] << endl;
 
