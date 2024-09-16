@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+static int switchs() {
 	int rating = 3;
 	switch (rating) {
 	case 1: 
