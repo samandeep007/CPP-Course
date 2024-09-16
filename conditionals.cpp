@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+int conditionals() {
 	//Conditionals --> Check a condition and render the relevant block of code
 	//You can have nested if statements
 	int rating = 4;

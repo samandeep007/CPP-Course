@@ -45,6 +45,9 @@
     <ClCompile Include="conditionals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ratingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
