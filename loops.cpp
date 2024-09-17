@@ -15,7 +15,7 @@ int main() {
 		cout << "Current number is " << my_numbers[i] << endl;
 		i++; //updating the counter
 	}
-	cout << "Out of loop" << endl
+	cout << "Out of loop" << endl;
 
 	return 0;
 }
