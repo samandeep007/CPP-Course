@@ -138,6 +138,7 @@
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="ratingSystem.cpp" />
     <ClCompile Include="references.cpp" />
+    <ClCompile Include="strings.cpp" />
     <ClCompile Include="switch.cpp" />
     <ClCompile Include="Tutorial1.cpp" />
   </ItemGroup>
