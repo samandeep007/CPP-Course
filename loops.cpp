@@ -10,12 +10,25 @@ int main() {
 	while (i < 7) { //checking the condition
 		if (i == 3) {
 			/*cout << "Special thing" << endl;*/
-			break;
-		}
+			/*break;*/
+			i++;
+			cout << "Skip this one" << endl;
+			continue;
+		} // or if(i == 3) break --> Shorthand
+
+
 		cout << "Current number is " << my_numbers[i] << endl;
 		i++; //updating the counter
 	}
 	cout << "Out of loop" << endl;
+
+	i = 0;
+	//Do while loop
+	//Usually used in hardwares, and drivers
+	do {
+		cout << "Current number is " << my_numbers[i] << endl;
+		i++;
+	} while (i < 7);
 
 	return 0;
 }
