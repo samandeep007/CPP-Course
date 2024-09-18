@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+static int loops() {
 	//Loop --> Block of code that executes multiple times based on a condition
 	int my_numbers[] = { 4,5,6,7,8,9,0 };
 	int i = 0; //initializing the counter

@@ -132,6 +132,7 @@
     <ClCompile Include="color.cpp" />
     <ClCompile Include="colorProgram.cpp" />
     <ClCompile Include="conditionals.cpp" />
+    <ClCompile Include="forloop.cpp" />
     <ClCompile Include="integers.cpp" />
     <ClCompile Include="loops.cpp" />
     <ClCompile Include="pointers.cpp" />
