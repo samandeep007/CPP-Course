@@ -13,7 +13,7 @@ static int lifeUp() {
 //The variable count is not getting initialized every time the function is called. 
 
 
-int main() {
+static int qualifiers() {
 
 	//Qualifiers
 	const int  i = 5; //const is a qualifier
