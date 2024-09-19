@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+static int string() {
 	char my_string[] = "Samandeep Singh"; //C style strings
 	char my_char_string[] = {'S', 'a', 'm', 'a', 'n','d', 'e', 'e', 'p', 0}; //Every single string is terminated by a 0 
 	//string my_name = "Tarandeep Kaur";
