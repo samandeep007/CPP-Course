@@ -3,9 +3,10 @@
 
 using namespace std;
 
-int main() {
+static int tryCatch() {
 	//Try-catch blocks
-	float call_api = 2.0;
+	char call_api = 's';
+	//float call_api = 2.0;
 	try {
 		cout << "Trying to use API value\n";
 		cout << "Did some testing with API value\n";
@@ -15,8 +16,11 @@ int main() {
 	catch (int x) {
 		cout << "Integer exception handled" << endl;
 	}
-	catch (float y) {
+	catch (float y) { //Based on the type of error you're getting, you can handle it
 		cout << "Float exception handled" << endl;
+	}
+	catch (...) { //In case, you don't know the type of the error you're getting
+		cout << "Something went wrong!" << endl;
 	}
 
 	cout << "Keep on moving with rest of the code" << endl;
