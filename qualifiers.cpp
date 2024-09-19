@@ -6,7 +6,7 @@ using namespace std;
 
 static int lifeUp() {
 	static int life = 3; //Life of the player --> static will make it available for whole program
-	return ++life;
+	return ++life; //Update the variable before using in the statement --> Prefix
 }
 
 //You can see in the above program that the variable count is declared static. So, its value is carried through the function calls. 
