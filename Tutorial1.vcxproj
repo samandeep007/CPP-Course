@@ -137,6 +137,7 @@
     <ClCompile Include="forloop.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="integers.cpp" />
+    <ClCompile Include="linkers.cpp" />
     <ClCompile Include="loops.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="ratingSystem.cpp" />

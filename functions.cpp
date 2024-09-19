@@ -19,7 +19,7 @@ static void sayHelloThree() {
 	cout << "3" << endl;
 }
 
-int main() {
+static int functions() {
 	sayHello();
 	sayHelloTwo();
 	//sayHelloThree() + 3; //Invalid operand because void and int are not compatible
