@@ -3,12 +3,18 @@
 
 using namespace std;
 
-int lifeUp() {
-	int life = 3; //Life of the player;
+
+static int lifeUp() {
+	static int life = 3; //Life of the player --> static will make it available for whole program
 	return ++life;
 }
 
+//You can see in the above program that the variable count is declared static. So, its value is carried through the function calls. 
+//The variable count is not getting initialized every time the function is called. 
+
+
 int main() {
+
 	//Qualifiers
 	const int  i = 5; //const is a qualifier
 	//i = 7; cannot reassign the value to i
@@ -32,10 +38,11 @@ int main() {
 	int life = 3;
 	cout << "Your starting game life is " << life << endl;
 
-	life = lifeUp();
+	life = lifeUp(); //returns the same value
 	cout << "Your updated game life is " << life << endl;
 
-
+	life = lifeUp();
+	cout << "Your updated game life is " << life << endl;
 
 	return 0;
 }
