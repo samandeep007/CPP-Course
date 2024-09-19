@@ -72,6 +72,9 @@
     <ClCompile Include="linkers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="qualifiers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
