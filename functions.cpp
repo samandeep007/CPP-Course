@@ -15,9 +15,15 @@ static int addNums(int numOne, int numTwo) {
 	return numOne + numTwo;
 }
 
+static void sayHelloThree() {
+	cout << "3" << endl;
+}
+
 int main() {
 	sayHello();
 	sayHelloTwo();
+	//sayHelloThree() + 3; //Invalid operand because void and int are not compatible
+	sayHelloThree();
 	cout << "The sum of numbers is " << addNums(2, 3) << endl;
 	return 0;
 }
