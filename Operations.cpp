@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+static int operators() {
 	int life = 3;
 	int points = 4;
 
@@ -14,6 +14,13 @@ int main() {
 
 	//Arithmetic Operations: + - * / %
 	//Unary operator: - --> makes the int negative
+
+	//Comparison Operators: ==, !=, <=, >=, <, <
+	//Logical Operators: &&, ||, !
+
+	if (life != 0) {
+		puts("Into the if block");
+	}
 
 
 	return 0;

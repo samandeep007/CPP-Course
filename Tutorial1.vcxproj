@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="arrays.cpp" />
     <ClCompile Include="Assignment1.cpp" />
+    <ClCompile Include="bitwiseOperations.cpp" />
     <ClCompile Include="color.cpp" />
     <ClCompile Include="colorProgram.cpp" />
     <ClCompile Include="conditionals.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="integers.cpp" />
     <ClCompile Include="linkers.cpp" />
+    <ClCompile Include="logicalOperators.cpp" />
     <ClCompile Include="loops.cpp" />
     <ClCompile Include="Operations.cpp" />
     <ClCompile Include="pointers.cpp" />
