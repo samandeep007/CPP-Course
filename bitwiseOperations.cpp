@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+static int bitwise() {
 	unsigned int x = 6;
 	unsigned int y = 9;
 	unsigned int z = 6 >> 1;
