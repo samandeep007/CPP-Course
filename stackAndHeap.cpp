@@ -21,10 +21,17 @@ int main() {
 	//stack
 	int score = 100;
 	User sam;
-	cout << sam.age;
 
-
+	
 	//Heap
+	int *heap_score = new int; //You have to delete it as well
+	*heap_score = 200; //Assigning value to the pointer by deref
+
+	User *nike = new User(); //new keyword is used for heap declarations 
+	
+
+	delete heap_score;
+	delete nike;
 
 	return 0;
 }
