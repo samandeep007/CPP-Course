@@ -10,7 +10,7 @@ struct User {
 	int course_count;
 };
 
-int main() {
+static int structures() {
 	 //Structures in CPP
 	User userOne = {001, "Saman Sandhu", "samandeep0792@gmail.com", 12};
 	User userTwo = { 002, "Tarandeep Sandhu", "tarandeep0792@gmail.com", 24 };
