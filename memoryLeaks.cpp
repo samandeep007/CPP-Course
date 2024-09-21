@@ -3,14 +3,14 @@
 
 using namespace std;
 
-int main() {
+static int memoryLeaks() {
 	int * myp;
 
 	try {
-		myp = new int[100]; //New is used to forcefully allocate memory --> You should also use delete to deallocate memory --> (nothrow) means it will not throw error
+		myp = new int [10]; //New is used to forcefully allocate memory --> You should also use delete to deallocate memory --> (nothrow) means it will not throw error
 		cout << "Memory space allocated" << endl;
 	}
-	catch(...) {
+	catch (...) {
 		cout << "Failed in allocating memory" << endl;
 	}
 
