@@ -5,7 +5,7 @@
 
 //#define PI = 3.14;
 
-enum microsoftOffice {
+enum microsoftOffice: uint8_t { //Enums are ints by default -> : is used to infer for optimization
 	BOLD = 5, //Auto-increment happens in enums --> All the subsequents will be +1 of the previous value | 5 is the default value here
 	ITALICS, 
 	UNDERLINE,
