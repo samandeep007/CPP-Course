@@ -15,7 +15,7 @@ enum microsoftOffice: uint8_t { //Enums are ints by default -> : is used to infe
 
 using namespace std;
 
-int main() {
+static int enums() {
 	//Enums --> set of constants : Maybe
 	int myAttributes = UNDERLINE; //Will print 7
 	cout << myAttributes << endl;
