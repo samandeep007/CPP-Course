@@ -11,7 +11,7 @@ static int anotherApiCall() {
 	return 5;
 }
 
-int main() {
+static int autoKeyword() {
 	//What does strongly-typed mean? C++ is one btw
 	//Data type should be defined beforehand
 
@@ -29,5 +29,8 @@ int main() {
 		puts("Types of both IDs matches");
 	}
 
+	if (typeid(response) == typeid(responseTwo)) {
+		puts("Good"); //This won't get printed bruh!
+	}
 	return 0;
 }
