@@ -27,7 +27,7 @@ public:
 	}
 };
 
-int main() {
+static int oopsFour() {
 	Rectangle h1(3.0, 3.0);
 	Rectangle h2(4.0, 4.0);
 
