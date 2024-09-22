@@ -138,6 +138,7 @@
     <ClCompile Include="floats.cpp" />
     <ClCompile Include="forloop.cpp" />
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="functions2.cpp" />
     <ClCompile Include="integers.cpp" />
     <ClCompile Include="linkers.cpp" />
     <ClCompile Include="logicalOperators.cpp" />

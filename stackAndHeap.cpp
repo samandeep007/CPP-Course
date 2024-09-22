@@ -8,7 +8,7 @@ struct User {
 	
 };
 
-int main() {
+static int stackAndHeap() {
 	using namespace std; //can be inside the main method as well
 	
 	//Stack and Heap Memory
