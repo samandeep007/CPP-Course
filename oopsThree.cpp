@@ -21,6 +21,11 @@ public:
 		return _os;
 	}
 
+	int getPrice() {
+		printf("The value of getPrice is %p\n", this); //this keyword refers to the object it belongs to (not the class) --> Self referencing pointer
+		return _price;
+	}
+
 	~Phone(); //This is a destructor --> Called automatically --> LIFO
 };
 
@@ -57,6 +62,10 @@ int main() {
 	Phone onePlus8("OP8", "Android-Oxy", 799);
 	cout << onePlus8.getName() << endl;
 	cout << onePlus8.getOs() << endl;
+
+	cout << onePlus8.getPrice() << endl;
+	cout << "The value of the object is " << &onePlus8 << endl;
+
 
 	Phone onePlus9 = onePlus8;
 	cout << onePlus9.getName() << endl;
