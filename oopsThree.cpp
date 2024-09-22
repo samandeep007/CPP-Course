@@ -49,7 +49,7 @@ Phone::Phone(const Phone& values) {
 };
 // :: --> scope resolution operator
 
-int main() {
+static int oopsThree() {
 	//Phone *apple = new Phone("iphone", "iOS", 12990);
 	//cout << apple->getName();
 

@@ -129,6 +129,9 @@
     <ClCompile Include="oopsThree.cpp">
       <Filter>Source Files\OOPS</Filter>
     </ClCompile>
+    <ClCompile Include="oopsFour.cpp">
+      <Filter>Source Files\OOPS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
