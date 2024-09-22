@@ -20,7 +20,7 @@ Everything with a # is executed first --> loaded first in the memory
 
 using namespace std;
 
-int main() {
+static int macros() {
 	
 	//const char* const 
 	SINT num = 4;

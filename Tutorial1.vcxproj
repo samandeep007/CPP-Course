@@ -159,6 +159,7 @@
     <ClCompile Include="structures.cpp" />
     <ClCompile Include="switch.cpp" />
     <ClCompile Include="Tutorial1.cpp" />
+    <ClCompile Include="variadic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adder.h" />

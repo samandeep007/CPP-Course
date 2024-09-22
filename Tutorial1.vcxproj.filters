@@ -114,6 +114,9 @@
     <ClCompile Include="macros.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="variadic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
