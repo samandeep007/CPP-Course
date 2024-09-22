@@ -15,9 +15,11 @@ public:
 	//Method
 	void classMessage(); 
 
-	int getSecret() { //This is a getter
-		return _secret;
-	}
+	//int getSecret() const { //This is a getter --> const will make it accessible by const objects
+	//	return _secret;
+	//}
+
+	int getSecret() const;
 
 	void setSecret(const int &newSecret) { //This is a setter --> You can add validation if you want
 		_secret = newSecret;
@@ -26,6 +28,10 @@ public:
 
 void User::classMessage() { //We need to tell this function that it belongs to a class explicitly
 	cout << "Class is great, " << name << endl;
+}
+
+int User::getSecret() const { //const needs to go here as well
+	return _secret;
 }
 
 int main() {
@@ -44,7 +50,9 @@ int main() {
 	taran.setSecret(333);
 	cout << taran.getSecret() << endl;
 
-
+	//constant objects
+	const User rock;
+	cout << rock.getSecret() << endl; //Not possible 
 
 	return 0;
 }
