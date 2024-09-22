@@ -20,11 +20,11 @@ void printVal(int* a) {
 	cout << "Pointer value is " << *a << endl;
 }
 
-int main() {
+static int nullCpp() {
 	//Null ambiguity
 	printVal(1);
 	printVal(1.5);
-	printVal(NULL);
+	printVal(nullptr); //nullptr is a default null pointer which means it points to nothing
 	printVal("Samandeep Singh");
 
 	int* myp;

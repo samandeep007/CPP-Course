@@ -140,6 +140,7 @@
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="functions2.cpp" />
     <ClCompile Include="functions3.cpp" />
+    <ClCompile Include="functions4.cpp" />
     <ClCompile Include="integers.cpp" />
     <ClCompile Include="linkers.cpp" />
     <ClCompile Include="logicalOperators.cpp" />

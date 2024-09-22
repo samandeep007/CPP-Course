@@ -108,6 +108,9 @@
     <ClCompile Include="nullCpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="functions4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
