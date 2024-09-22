@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Tut1Assignments">
       <UniqueIdentifier>{c5a1e9cd-a41a-4bec-a4a4-2df856df0189}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\OOPS">
+      <UniqueIdentifier>{6c729fc7-697a-4f5d-b1b7-017dfc03742c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tutorial1.cpp">
@@ -116,6 +119,9 @@
     </ClCompile>
     <ClCompile Include="variadic.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oops.cpp">
+      <Filter>Source Files\OOPS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

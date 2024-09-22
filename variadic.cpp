@@ -14,7 +14,7 @@ void func(T t, Args... args) {
 	func(args...);
 } //This is kinda recursive thing.. The first argument is always treated as T while the rest of them go into args --> For the last argument we already have the overloaded method that accepts only one argument
 
-int main() {
+static int variadic() {
 	//Variadic are methods/functions that can accept any number of values
 	//Variadic operator: ...
 

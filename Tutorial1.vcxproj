@@ -148,6 +148,7 @@
     <ClCompile Include="macros.cpp" />
     <ClCompile Include="memoryLeaks.cpp" />
     <ClCompile Include="nullCpp.cpp" />
+    <ClCompile Include="oops.cpp" />
     <ClCompile Include="Operations.cpp" />
     <ClCompile Include="pointers.cpp" />
     <ClCompile Include="qualifiers.cpp" />
