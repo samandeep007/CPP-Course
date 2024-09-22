@@ -145,6 +145,7 @@
     <ClCompile Include="linkers.cpp" />
     <ClCompile Include="logicalOperators.cpp" />
     <ClCompile Include="loops.cpp" />
+    <ClCompile Include="macros.cpp" />
     <ClCompile Include="memoryLeaks.cpp" />
     <ClCompile Include="nullCpp.cpp" />
     <ClCompile Include="Operations.cpp" />

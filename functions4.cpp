@@ -11,7 +11,7 @@ int factorial(int n) {
 	return n * factorial(n - 1);
 }
 
-int main() {
+static int recursion() {
 	//Recursion is a function that keeps calling itself until a certain condition is met
 	//factorial is a very common example of it : n(n-1)!
 	// :: scope resolution operator
@@ -21,7 +21,7 @@ int main() {
 	*/
 	int num;
 	cout << "Enter a number: ";
-	cin >> num;
+	cin >> num; //You should perform some validation here (not doing here)
 	cout << "The factorial of " << num << " is " << factorial(num) << endl;
 	return 0;
 }
