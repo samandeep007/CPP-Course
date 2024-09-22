@@ -157,6 +157,7 @@
     <ClCompile Include="Tutorial1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="adder.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

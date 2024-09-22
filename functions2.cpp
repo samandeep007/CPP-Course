@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+//#include "adder.h"
 
 using namespace std;
 
@@ -16,13 +17,13 @@ void lifeIncrease(int& life) { //doesn't matter what you pass, it will take in t
 	++life;
 }
 
-int addMe(int numOne, int numTwo) {
-	return numOne + numTwo;
+//Templates --> Similar but different to Generics
+template<typename T> //T is a whole new data type --> It is general
+T addMe(T a, T b) {
+	return a + b;
 }
 
-float addMe(float numOne, float numTwo) { //Function overloading --> function with different signature but same name
-	return numOne + numTwo;
-}
+
 
 int main() {
 	//Functions are the building blocks of C++
@@ -63,6 +64,8 @@ int main() {
 	//cout << addMe(v3, v4) << endl; --> Will add only the integer equivalents --> value will get truncated
 
 	cout << addMe(v3, v4) << endl; //Will return the float value 
+
+
 	
 	return 0;
 }
