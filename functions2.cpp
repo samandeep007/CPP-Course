@@ -25,7 +25,7 @@ T addMe(T a, T b) {
 
 
 
-int main() {
+static int function2() {
 	//Functions are the building blocks of C++
 	/*
 	Functions are called methods when defined inside a class
