@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 
+
+//https://stackoverflow.com/questions/4172722/what-is-the-rule-of-three#:~:text=In%20that%20case%2C%20remember%20the,compiler%20I%20am%20aware%20of.)
+
 using namespace std;
 
 //Class is a blueprint on which the objects are based
@@ -34,8 +37,8 @@ int User::getSecret() const { //const needs to go here as well
 	return _secret;
 }
 
-int main() {
-	User saman;
+static int oopsOne() {
+	User saman; //A constructor is called automatically --> every class has a implicit constructor --> allocates memory
 	saman.name = "Samandeep Singh";
 	saman.classMessage();
 
@@ -52,7 +55,10 @@ int main() {
 
 	//constant objects
 	const User rock;
-	cout << rock.getSecret() << endl; //Not possible 
+	cout << rock.getSecret() << endl; //Not possible
+
+	User peter = saman; //Will point to the same memory location as saman
+	peter.classMessage(); //Will display the same thing as saman
 
 	return 0;
 }
