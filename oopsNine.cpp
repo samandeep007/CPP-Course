@@ -17,7 +17,7 @@ ostream& operator<<(ostream& stream, const Corners& corner) { //Operator overloa
 
 //vector --> array with dynamic size --> costly --> Pros >> Cons 
 
-int main() {
+static int vectors() {
 	//standard template library --> Template is a empty plate on which you can put anything
 	vector<int> inty;//not need to have a class in template unlike Java
 	

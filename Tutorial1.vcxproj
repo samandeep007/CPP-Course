@@ -135,6 +135,7 @@
     <ClCompile Include="conditionals.cpp" />
     <ClCompile Include="enums.cpp" />
     <ClCompile Include="exceptions.cpp" />
+    <ClCompile Include="files.cpp" />
     <ClCompile Include="floats.cpp" />
     <ClCompile Include="forloop.cpp" />
     <ClCompile Include="functions.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="oopsNine.cpp" />
     <ClCompile Include="oopsSeven.cpp" />
     <ClCompile Include="oopsSix.cpp" />
+    <ClCompile Include="oopsTen.cpp" />
     <ClCompile Include="oopsThree.cpp" />
     <ClCompile Include="oopsTwo.cpp" />
     <ClCompile Include="Operations.cpp" />
