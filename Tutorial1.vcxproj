@@ -152,6 +152,7 @@
     <ClCompile Include="oopsEight.cpp" />
     <ClCompile Include="oopsFive.cpp" />
     <ClCompile Include="oopsFour.cpp" />
+    <ClCompile Include="oopsNine.cpp" />
     <ClCompile Include="oopsSeven.cpp" />
     <ClCompile Include="oopsSix.cpp" />
     <ClCompile Include="oopsThree.cpp" />
