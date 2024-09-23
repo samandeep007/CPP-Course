@@ -22,6 +22,9 @@
     <Filter Include="Source Files\FileHandling">
       <UniqueIdentifier>{2d7d80df-2bf8-461c-98a0-b75326373619}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\STL">
+      <UniqueIdentifier>{52978b41-558f-4641-b05f-63a780297736}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tutorial1.cpp">
@@ -161,6 +164,9 @@
     </ClCompile>
     <ClCompile Include="filesThree.cpp">
       <Filter>Source Files\FileHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="STL1.cpp">
+      <Filter>Source Files\STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
