@@ -12,7 +12,7 @@ int main() {
 	ifstream ReadFile(fileName);
 	
 	while (getline(ReadFile, myText)) {
-		cout << myText;
+		cout << myText << " ";
 	}
 
 	ReadFile.close();
