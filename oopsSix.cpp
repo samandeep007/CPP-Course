@@ -23,7 +23,7 @@ public:
 	}
 };
 
-int main() {
+static int virtualKeyword() {
 	//Polymorphism --> Overloading and overriding
 
 	One *a;
