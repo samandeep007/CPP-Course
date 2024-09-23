@@ -136,6 +136,8 @@
     <ClCompile Include="enums.cpp" />
     <ClCompile Include="exceptions.cpp" />
     <ClCompile Include="files.cpp" />
+    <ClCompile Include="filesThree.cpp" />
+    <ClCompile Include="filesTwo.cpp" />
     <ClCompile Include="floats.cpp" />
     <ClCompile Include="forloop.cpp" />
     <ClCompile Include="functions.cpp" />

@@ -3,9 +3,9 @@
 
 using namespace std;
 
-int main() {
+static int fileHandlingOne() {
 	//File Handling in C++ --> doesn't work in visual studio
-	static const char * originalFile = "original.txt";
+	static const char * originalFile = "original.txt"; //file pointer
 	static const char * editedFile = "editedFile.txt";
 
 	//rename(originalFile, editedFile);

@@ -19,6 +19,9 @@
     <Filter Include="Source Files\OOPS">
       <UniqueIdentifier>{6c729fc7-697a-4f5d-b1b7-017dfc03742c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\FileHandling">
+      <UniqueIdentifier>{2d7d80df-2bf8-461c-98a0-b75326373619}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tutorial1.cpp">
@@ -151,7 +154,13 @@
       <Filter>Source Files\OOPS</Filter>
     </ClCompile>
     <ClCompile Include="files.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\FileHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="filesTwo.cpp">
+      <Filter>Source Files\FileHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="filesThree.cpp">
+      <Filter>Source Files\FileHandling</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
