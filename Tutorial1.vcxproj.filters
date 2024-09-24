@@ -183,6 +183,9 @@
     <ClCompile Include="STL6.cpp">
       <Filter>Source Files\STL</Filter>
     </ClCompile>
+    <ClCompile Include="STL7.cpp">
+      <Filter>Source Files\STL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
