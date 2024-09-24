@@ -168,6 +168,9 @@
     <ClCompile Include="STL1.cpp">
       <Filter>Source Files\STL</Filter>
     </ClCompile>
+    <ClCompile Include="STL2.cpp">
+      <Filter>Source Files\FileHandling</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

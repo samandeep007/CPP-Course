@@ -7,7 +7,7 @@ template<typename T>
 T getBigger(T valOne, T valTwo) { //No need to worry about the data type: T can be anything
 	return valOne > valTwo ? valOne : valTwo;
 }
-int main() {
+static int STLOne() {
 	//Standard Template Library --> For generic programming --> Different from std library
 	/*
 	It takes Generic programming to next level --> Somewhere between pseudocode and actual code --> data type doesn't matter

@@ -168,6 +168,7 @@
     <ClCompile Include="references.cpp" />
     <ClCompile Include="stackAndHeap.cpp" />
     <ClCompile Include="STL1.cpp" />
+    <ClCompile Include="STL2.cpp" />
     <ClCompile Include="strings.cpp" />
     <ClCompile Include="stronglyTyped.cpp" />
     <ClCompile Include="structures.cpp" />
