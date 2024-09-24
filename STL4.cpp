@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ static int algorithms() {
 	}
 	cout << endl;
 	
-	//sort(myNumbers, myNumbers + 7); //myNumber gives the memory address of the first array element --> Intro sort behind the scenes 
+	sort(myNumbers, myNumbers + 7); //myNumber gives the memory address of the first array element --> Intro sort behind the scenes 
 
 	cout << "Sorted values: ";
 	//sort(myNumbers, 7);
