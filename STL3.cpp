@@ -19,11 +19,17 @@ public:
 	}
 };
 
-int main() {
+static int functors() {
 	//Functors --> State management of functions --> Operator overloading of parenthesis
+	
 	MyFloat floaty;
 	floaty.getValue();
+
 	floaty(0.1); //Overloading the parenthesis
 	floaty.getValue(); //0.1 added to the floaty
+
+	floaty(0.2); 
+	floaty.getValue(); 
+
 	return 0;
 }

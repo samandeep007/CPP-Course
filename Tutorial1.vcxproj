@@ -170,6 +170,8 @@
     <ClCompile Include="STL1.cpp" />
     <ClCompile Include="STL2.cpp" />
     <ClCompile Include="STL3.cpp" />
+    <ClCompile Include="STL4.cpp" />
+    <ClCompile Include="STL5.cpp" />
     <ClCompile Include="strings.cpp" />
     <ClCompile Include="stronglyTyped.cpp" />
     <ClCompile Include="structures.cpp" />
