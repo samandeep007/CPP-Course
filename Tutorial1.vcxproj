@@ -175,6 +175,7 @@
     <ClCompile Include="STL6.cpp" />
     <ClCompile Include="STL7.cpp" />
     <ClCompile Include="STL8.cpp" />
+    <ClCompile Include="STL9.cpp" />
     <ClCompile Include="strings.cpp" />
     <ClCompile Include="stronglyTyped.cpp" />
     <ClCompile Include="structures.cpp" />

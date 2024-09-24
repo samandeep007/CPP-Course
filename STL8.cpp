@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+static int lists() {
 	//List --> Sequence is not mandatory --> No guarantee of continuous memory locations
 	//Used for doubly linked list
 
@@ -27,6 +27,14 @@ int main() {
 	cout << endl;
 
 	numList.reverse(); //Not a part of algorithms
+
+	for (int num : numList) {
+		cout << num << " ";
+	}
+
+	cout << endl;
+
+	numList.sort();
 
 	for (int num : numList) {
 		cout << num << " ";
