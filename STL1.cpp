@@ -18,6 +18,9 @@ int main() {
 	NOTE: we will mention data type in C++
 	*/
 
+	cout << getBigger(4, 5) << endl;
+	cout << getBigger(3.5, 3.9) << endl;
+	cout << getBigger('A', 'D') << endl; //Compares the ASCII values
 
 	return 0;
 }
