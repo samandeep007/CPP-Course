@@ -169,7 +169,10 @@
       <Filter>Source Files\STL</Filter>
     </ClCompile>
     <ClCompile Include="STL2.cpp">
-      <Filter>Source Files\FileHandling</Filter>
+      <Filter>Source Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="STL3.cpp">
+      <Filter>Source Files\STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
