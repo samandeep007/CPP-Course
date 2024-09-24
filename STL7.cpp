@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+int container() {
 	//Containers --> array on steroids
 	//Vectors
 	vector<int> nums;
