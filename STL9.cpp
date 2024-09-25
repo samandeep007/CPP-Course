@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	//Queue --> FIFO --> First In, First Out --> not all the methods are available
+	//Queue --> FIFO --> First In, First Out --> not all the methods are availa
 
 	queue<int> myQueue;
 	myQueue.push(10); //Only one side push is allowed
